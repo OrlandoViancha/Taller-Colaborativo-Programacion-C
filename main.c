@@ -15,8 +15,52 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
+#include <ctype.h>
 
 
+void  mainMenu30(){
+    char Opcion;
+    
+  char *mainMenu30="<<<Menu Principal Ejercicios>>>/n/n"
+    "1.Numeros primos desendentes/n"
+   "2.Numero Egolatra/n"
+   "3.Numero  Magico/n"
+   "4.Indice  masa corporal/n"
+   "5.suma de  digitos/n"
+   "6.palabras fibonacci/n"
+   "7.juego /n/n"
+   "Digite ([S/s]-salir)...";
+  do{
+      printf(mainMenu30);
+      scanf("%c",&Opcion);
+      fflush(stdin);
+      switch(Opcion){
+          case  '1':CalcularNumerosPrimos(int numero );
+              break;
+              
+              case  '2':
+              break;
+              
+              case  '3':
+              break;
+              
+              
+              case  '4 ':
+              break;
+              
+              case  '5 ':
+              break;
+              
+              case  '6':
+              break;
+              
+              case  '7':
+              break;
+      }
+      {while(toupper(opcion)!= 'S');
+  }
+  
+  
 
 
 /*

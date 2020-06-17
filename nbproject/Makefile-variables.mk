@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=Cygwin-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=talller_colaborativo
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/talller_colaborativo
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=talllercolaborativo.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/talllercolaborativo.tar
+CND_PLATFORM_Debug=Cygwin_1-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_1-Windows
+CND_ARTIFACT_NAME_Debug=taller-colaborativo-programacion-c
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_1-Windows/taller-colaborativo-programacion-c
+CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_1-Windows/package
+CND_PACKAGE_NAME_Debug=taller-colaborativo-programacion-c.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_1-Windows/package/taller-colaborativo-programacion-c.tar
 # Release configuration
-CND_PLATFORM_Release=Cygwin-Windows
-CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=talller_colaborativo
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/talller_colaborativo
-CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=talllercolaborativo.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/talllercolaborativo.tar
+CND_PLATFORM_Release=Cygwin_1-Windows
+CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_1-Windows
+CND_ARTIFACT_NAME_Release=taller-colaborativo-programacion-c
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_1-Windows/taller-colaborativo-programacion-c
+CND_PACKAGE_DIR_Release=dist/Release/Cygwin_1-Windows/package
+CND_PACKAGE_NAME_Release=taller-colaborativo-programacion-c.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_1-Windows/package/taller-colaborativo-programacion-c.tar
 #
 # include compiler specific variables
 #

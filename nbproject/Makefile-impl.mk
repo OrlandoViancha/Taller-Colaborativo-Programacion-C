@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Talller Colaborativo
+PROJECTNAME=Taller-Colaborativo-Programacion-C
 
 # Active Configuration
 DEFAULTCONF=Debug
