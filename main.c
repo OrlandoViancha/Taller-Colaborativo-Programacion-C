@@ -244,6 +244,78 @@ int IMC(double estatura,double peso,int sexo){
     return imc;
     
 }
+
+
+
+
+//metodo de  los  intervalos  de numeros 
+void main(){
+    
+    int suma= 0;
+int contador=0;
+
+void separarIntervalos(int numero, int digito){
+    char cadena[100000];
+    sprintf(cadena, "%d", numero);
+    int cantidad=strlen (cadena);
+    
+    for (int i=0; i<cantidad;i++){
+        int n=(int) cadena[i]-48;
+        if (n==digito){
+            contador++;
+        }else{
+            suma=suma+n;
+        }
+       
+    }
+  
+}
+    
+    
+   int intervaloUno,intervaloDos, i, j,digito;
+    int numOmitir=1;
+    int cantidad, sumacifras=0;
+    
+    
+    printf("Digite el primer número del rango:\n ");
+     printf("Digite Rango  de  forma  ordenada #1 en adelante: ");
+    scanf("%d", &intervaloUno);
+
+    printf("Digite el segundo número del rango: ");
+    scanf("%d", &intervaloDos);
+    
+    //printf ("Digite el numero a omitir: ");
+    //scanf("%d", &numOmitir);
+    
+    
+    cantidad=intervaloDos-intervaloUno+1;
+    
+    int guardarnumero[cantidad-1];
+    
+    printf("Cantidad de números en el rango: %d \n",cantidad);
+    printf("Números en el intervalo: ");
+    
+    int posicion=0;
+    for(i=intervaloUno;i<=intervaloDos;i++){
+        guardarnumero[posicion]=i;
+        
+        printf("%d ",i);
+        posicion++;
+        
+    }
+    
+    
+    for(j=0;j<=cantidad-1;j++){
+        separarIntervalos (guardarnumero[j],numOmitir);
+    }
+    
+    printf ("\nTotal suma: %d \n", suma);
+    printf ("Repeticiones del numero 1 a omitir : %d \n", contador);
+    
+    
+   
+}
+
 void Fibonacci(int n){
     
    
@@ -309,5 +381,5 @@ int main(int argc, char** argv) {
           printf("Tiene Obesidad Morbida");
       }
 
-return (EXIT_SUCCESS);
+//return (EXIT_SUCCESS);
 }
